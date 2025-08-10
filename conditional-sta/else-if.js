@@ -13,6 +13,6 @@ if (country === "australia"){
 }else if(country === "south africa"){
     color = "darkBlack";
 }else{
-    color = "Mixed color";
+    color = "Black-mamba";
 }
 console.log(`You choose ${country} country and you will get ${color} color in dark mode.`);
