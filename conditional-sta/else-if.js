@@ -1,7 +1,7 @@
 // Dark mode color based on country
 // This code uses else-if statements to determine the color based on the country
 
-let country = "australia."; // Choose a country here
+let country = "australia"; // Choose a country here
 let color;
 
 if (country === "australia"){
