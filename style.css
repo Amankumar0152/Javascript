@@ -1,17 +1,22 @@
-h1{
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
+.content{
+    color: red;
+    font-size: 20px;
+
 }
-.box{
-    width: 150px;
-    height: 100px;
-    border: 1px solid black ;
-    margin: 5px;
+
+div{
+    margin: 20px;
+    height: 150px;
+    width: 300px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: lightslategrey;
     padding: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: lightpink;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
+    color: greenyellow;
+    border-radius:5px;
+    border: 3px solid pink;
 }

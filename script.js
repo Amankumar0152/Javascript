@@ -1,14 +1,17 @@
-// let h1 = document.querySelector("h1");
-// console.log(h1.innertext);
+let btn1 = document.querySelector("#btn1");
 
-// h1.innerText = h1.innerText + " Message from mars";
+btn1.addEventListener("click", (evt) =>{
+    console.log("button was clicked - handler 1");
+});
 
+btn1.addEventListener("click", (evt) =>{
+    console.log("button was clicked - handler 2");
+});
 
+btn1.addEventListener("click", (evt) =>{
+    console.log("button was clicked - handler 3");
+});
 
-let divs = document.querySelectorAll(".box");
-
-let idx = 1;
-for(div of divs){
-    div.innerText = `New Text in this BOX ${idx}`;
-    idx++;
-}
+btn1.addEventListener("click", (evt) =>{
+    console.log("button was clicked - handler 4");
+});
