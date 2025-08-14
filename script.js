@@ -8,10 +8,13 @@ btn1.addEventListener("click", (evt) =>{
     console.log("button was clicked - handler 2");
 });
 
-btn1.addEventListener("click", (evt) =>{
+const handler3 = () =>{
     console.log("button was clicked - handler 3");
-});
+};
+btn1.addEventListener("click", handler3);
 
 btn1.addEventListener("click", (evt) =>{
     console.log("button was clicked - handler 4");
 });
+
+btn1.removeEventListner("click", handler3);
