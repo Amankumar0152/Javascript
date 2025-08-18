@@ -1,7 +1,6 @@
 .content{
     color: red;
     font-size: 20px;
-
 }
 
 div{
@@ -9,7 +8,7 @@ div{
       width: 250px;                   /* Box width */
       padding: 20px;                  /* Inner spacing */
       border-radius: 10px;            /* Rounded corners */
-      box-shadow: 0 0 15px rgba(255, 0, 0, 0.6);  /* Soft shadow */
+      box-shadow: 0 0 15px rgba(223, 222, 222, 0.6);  /* Soft shadow */
       text-align: center;             /* Center text */
       font-family: Arial, sans-serif; /* Clean font */
       margin: 20px auto;              /* Center horizontally */
