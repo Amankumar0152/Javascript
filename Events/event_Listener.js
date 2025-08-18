@@ -1,7 +1,9 @@
 let btn1 = document.querySelector("#btn1");
 
-btn1.addEventListener("click", () =>{
+btn1.addEventListener("click", (evt) =>{
     console.log("tbn1 was clicked by handler 1");
+    console.log(evt);
+    console.log(evt.type);
 })
 
 btn1.addEventListener("click", () =>{
