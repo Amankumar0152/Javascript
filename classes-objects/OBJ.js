@@ -1,8 +1,11 @@
-const student = {
-    username : "piratesaman",
-    works: "loot paat",
-    loc : "tourtuga",
-    printloc : function(){
-        console.log("loc = ", this.loc);
+const employee = {
+    calcTax(){
+        console.log("Employee Tax");
     }
 }
+
+const karanArjun ={
+    salary: 50000,
+}
+
+karanArjun.__proto__ = employee;
