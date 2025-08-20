@@ -1,3 +1,20 @@
+button{
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    background-color: lightslategrey;
+    color: cornsilk;
+    border-radius: 9px;
+}
+button:hover{
+    background-color: rgb(139, 191, 243);
+    color: white;
+    transition: 0.6s;
+    transform: scale(0.6);
+}
+
 .content{
     color: red;
     font-size: 20px;
