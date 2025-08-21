@@ -1,17 +1,17 @@
 class Car{
+    constructor(brand){
+        console.log("This is a Brand");
+        this.brand = brand;
+    }
+
     start(){
-        console.log("start car");
+        console.log("Car Engine Started");
     }
 
     stop(){
-        console.log("stop");
-    }
-    setBrand(brand){
-        this.brandName = brand;
+        console.log("Engine Stopped");
     }
 }
 
-let dezire = new Car();
-dezire.setBrand("Dezire");
-let bmw = new Car();
-bmw.setBrand("BMW");
+let dezire = new Car("dezire");
+let bmw = new Car("bmw");
