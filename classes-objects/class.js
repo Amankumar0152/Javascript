@@ -7,3 +7,5 @@ class Car{
         console.log("stop");
     }
 }
+
+let dezire = new Car();
