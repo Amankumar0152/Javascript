@@ -13,5 +13,3 @@ class User{
 
 let student1 = new User("Aman", "Amanghostvilla@gmail.com");
 let student2 = new User("Shruti", "Shruticutevaranasi@gmail.com");
-
-let teacher1 = new User("Dr. Neeraj Dhankhar", "Dhankhar@gmail.com");
